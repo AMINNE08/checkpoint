@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <header>
+      <!-- Create the Navbar  -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--  Create the Sections -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nihil
+        ratione officia a, laudantium eligendi excepturi, libero hic unde
+        cupiditate saepe velit, laborum ipsa sapiente. Eaque repellat non
+        dolorum ratione?
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>Work</h2>
+      <div class="work-item">
+        <h3>Project Title</h3>
+        <p>Description of the project...</p>
+        <a href="link-to-project">View Project</a>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Link to my resume: <a href="my-resume-link">Download Resume</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit-form-url" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <h2>for more information you can watch this video</h2>
+    <!-- adding a video  -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/7UIBIaEZVWw"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <!-- working with semantic tags -->
+    <footer>
+      <p>&copy; 2024 Saddedine Tahar Amine. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
